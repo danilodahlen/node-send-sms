@@ -1,0 +1,25 @@
+{
+  "name": "servicointegracaobothanicasms",
+  "version": "1.0.0",
+  "description": "servicoIntegracaoCampoSales",
+  "main": "executar.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/happybiz/servicoIntegracaoBothanicaSMS.git"
+  },
+  "author": "Danilo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/happybiz/servicoIntegracaoBothanicaSMS/issues"
+  },
+  "homepage": "https://github.com/happybiz/servicoIntegracaoBothanicaSMS#readme",
+  "dependencies": {
+    "date-time": "^2.1.0",
+    "http": "0.0.0",
+    "mssql": "^4.2.3",
+    "node-windows": "^0.1.14"
+  }
+}

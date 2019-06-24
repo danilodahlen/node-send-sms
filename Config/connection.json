@@ -1,0 +1,30 @@
+{
+    "cad_empresa": "001",
+    "cad_filial": "0001",
+    "database" :{
+        "server":"192.168.1.199",
+        "database":"BASE",
+        "user":"sa",
+        "password":"1234"
+    },
+    "api":{
+        "facilitaMovel":{
+            "bm":{
+                "parametros":{
+                    "url":"http://www.facilitamovel.com.br/api/",
+                    "user":"adm",
+                    "password":"adm"
+                },
+                "metodos":{
+                    "consulta_creditos":"checkCredit.ft",
+                    "enviar_sms_simples":"simpleSend.ft",
+                    "enviar_sms_multiplo":"multipleSend.ft",
+                    "consulta_sms":"dlrStatus.ft"
+                }    
+            }
+        }
+    },
+    "geral":{
+        "tempo_intervalo":"5000"
+    }
+}
