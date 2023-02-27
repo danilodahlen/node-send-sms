@@ -20,6 +20,6 @@
     "date-time": "^2.1.0",
     "http": "0.0.0",
     "mssql": "^4.2.3",
-    "node-windows": "^0.1.14"
+    "node-windows": "^1.0.0-beta.8"
   }
 }
